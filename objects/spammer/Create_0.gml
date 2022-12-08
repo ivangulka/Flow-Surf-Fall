@@ -55,3 +55,4 @@ while k2 <=3 {
 
 
 // создание бревна:
+alarm[0] = 10 *room_speed
