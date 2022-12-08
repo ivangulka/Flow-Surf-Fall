@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(global.id_brev_stone)
+if global.check_stone == true{ 
+	instance_destroy(global.id_brev_stone)
+}
 

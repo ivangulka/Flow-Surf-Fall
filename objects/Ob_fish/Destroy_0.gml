@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-instance_destroy(global.id_brev_fish)
+if global.check_fish== true{ 
+	instance_destroy(global.id_brev_fish)
+}
