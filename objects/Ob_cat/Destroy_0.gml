@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-instance_destroy(global.id_brev_cat)
-instance_destroy(global.id_brev_cat1)
+if global.check_cat == true{ 
+	instance_destroy(global.id_brev_cat)
+}

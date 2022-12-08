@@ -1,2 +1,6 @@
-instance_destroy(global.id_brev_ban)
-instance_destroy(global.id_brev_ban1)
+if global.check_ban == true{ 
+	instance_destroy(global.id_brev_ban)
+}
+
+
+

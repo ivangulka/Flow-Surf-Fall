@@ -35,24 +35,61 @@ while k <=3 {
 	 objs_on_brevno[(0+k)] = ob_br; 
 	 k +=1;
 }
-// check banana
+// checks
 k2 = 0
+global.check_ban = false
 while k2 <=3 {
 	if objs_on_brevno[(0+k2)] == brevno_ban
 	{
-		global.check_ban = true
-		show_debug_message(global.check_ban)
-		
-	}
-	else
-	{
-		global.check_ban = false
-        show_debug_message(global.check_ban)
-        
+		global.check_ban = true		
 	}
 	k2 += 1;
 }
+k3 = 0
+global.check_duck = false	
+while k3 <=3 {
+	if objs_on_brevno[(0+k3)] == brevno_duck
+	{
+		global.check_duck = true		
+	}
+	k3 += 1;
+}
+k4 = 0
+global.check_fish = false
+while k4 <=3 {
+	if objs_on_brevno[(0+k4)] == brevno_fish
+	{
+		global.check_fish = true		
+	}
+	k4 += 1;
+}
+k5 = 0
+global.check_stone = false
+while k5 <=3 {
+	if objs_on_brevno[(0+k5)] == brevno_stone
+	{
+		global.check_stone = true		
+	}
+	k5 += 1;
+}
+k6 = 0
+global.check_vetka = false
+while k6 <=3 {
+	if objs_on_brevno[(0+k6)] == brevno_vetka
+	{
+		global.check_vetka = true		
+	}
+	k6 += 1;
+}
+k7 = 0
+global.check_cat = false
+while k7 <=3 {
+	if objs_on_brevno[(0+k7)] == brevno_cat
+	{
+		global.check_cat = true		
+	}
+	k7 += 1;
+}
 
-
-// создание бревна:
-alarm[0] = 10 *room_speed
+// создание и дэлит бревна:
+alarm[0] = 12 *room_speed 

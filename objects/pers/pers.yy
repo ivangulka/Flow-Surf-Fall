@@ -35,6 +35,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Ob_stone","path":"objects/Ob_stone/Ob_stone.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Ob_vetka","path":"objects/Ob_vetka/Ob_vetka.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Ob_ban","path":"objects/Ob_ban/Ob_ban.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"Ob_brevno","path":"objects/Ob_brevno/Ob_brevno.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
