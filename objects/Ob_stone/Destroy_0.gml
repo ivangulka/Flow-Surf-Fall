@@ -10,7 +10,7 @@ if global.check_stone == true{
 else{
 	game_end()
 }
-//if global.k_stone = 2{
-//	instance_destroy(global.id_brev_stone1)
-//}
+if global.k_stone = 2{
+	instance_destroy(global.id_br_stone)
+}
 

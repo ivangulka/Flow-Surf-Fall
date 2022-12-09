@@ -8,7 +8,7 @@ if global.check_ban == true{
 else{
 	game_end()
 }
-//if global.k_ban = 2{
-//	instance_destroy(global.id_brev_ban1)
-//}
+if global.k_ban = 2{
+    instance_destroy(global.id_br_ban)
+}
 

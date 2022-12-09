@@ -10,7 +10,7 @@ if global.check_vetka == true{
 else{
 	game_end()
 }
-//if global.k_vetka = 2{
-//	instance_destroy(global.id_brev_vetka1)
-//}
+if global.k_vetka = 2{
+	instance_destroy(global.id_br_vetka)
+}
 	

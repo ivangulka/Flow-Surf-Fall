@@ -10,6 +10,6 @@ if global.check_fish== true{
 else{
 	game_end()
 }
-//if global.k_fish = 2{
-//	instance_destroy(global.id_brev_fish1)
-//}
+if global.k_fish = 2{
+	instance_destroy(global.id_br_fish)
+}

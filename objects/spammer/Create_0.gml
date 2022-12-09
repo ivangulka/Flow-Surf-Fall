@@ -30,26 +30,26 @@ global.objs_on_brevno = [];
 k = 0;
 while k <=3 {
 	 ob_br = objs[irandom(5)];
-	 (instance_create_layer(600 + 200*k, 155,"objs_on_brevno",ob_br)).x = 600+ 200*k; //изменено
+	 (instance_create_layer(600 + 200*k, 155,"objs_on_brevno",ob_br)).x = 600+ 200*k;
+	 if ob_br =  brevno_ban{
+		 global.id_br_ban = ob_br.id
+	 }
+	 if ob_br =  brevno_cat{
+		 global.id_br_cat = ob_br.id
+	 }
+	 if ob_br =  brevno_duck{
+		 global.id_br_duck = ob_br.id
+	 }
+	 if ob_br =  brevno_fish{
+		 global.id_br_fish = ob_br.id
+	 }
+	 if ob_br =  brevno_stone{
+		 global.id_br_stone = ob_br.id
+	 }
+	 if ob_br =  brevno_vetka{
+		 global.id_br_vetka = ob_br.id
+	 }
 	 objs_on_brevno[(0+k)] = ob_br;
-	 //if ob_br = brevno_ban{
-		// array_delete(objs, 0,0);
-	 //}
-	 //if ob_br = brevno_cat{
-		// array_delete(objs, 1,1);
-	 //}
-	 //if ob_br = brevno_duck{
-		// array_delete(objs, 2,2);
-	 //}
-	 //if ob_br = brevno_fish{
-		// array_delete(objs, 3,3);
-	 //}
-	 //if ob_br = brevno_stone{
-		// array_delete(objs, 4,4);
-	 //}
-	 //if ob_br = brevno_vetka{
-		// array_delete(objs, 5,5);
-	 //}
 	 k +=1;
 }
 // checks
