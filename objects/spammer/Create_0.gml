@@ -1,3 +1,10 @@
+//переменные-счетчики для спавна вторых объектов:
+global.perb = 1 
+global.perc = 1 
+global.perd = 1 
+global.perf = 1 
+global.pers = 1 
+global.perv = 1 
 //alarm
 randomize()
 t1 = 10
