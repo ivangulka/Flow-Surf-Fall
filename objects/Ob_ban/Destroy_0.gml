@@ -1,6 +1,5 @@
 if global.check_ban == true{ 
 	instance_destroy(global.id_brev_ban)
-	global.id_brev_ban1 = global.id_brev_ban
 	global.k_ban1 +=1
 	if global.k_ban1 > global.k_ban{
 		instance_destroy(global.id_pers)
@@ -9,7 +8,7 @@ if global.check_ban == true{
 else{
 	game_end()
 }
-if global.k_ban = 2{
-	instance_destroy(global.id_brev_ban1)
-}
+//if global.k_ban = 2{
+//	instance_destroy(global.id_brev_ban1)
+//}
 

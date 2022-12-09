@@ -1,4 +1,3 @@
-
 //alarm
 randomize()
 t1 = 10
@@ -32,7 +31,25 @@ k = 0;
 while k <=3 {
 	 ob_br = objs[irandom(5)];
 	 (instance_create_layer(600 + 200*k, 155,"objs_on_brevno",ob_br)).x = 600+ 200*k; //изменено
-	 objs_on_brevno[(0+k)] = ob_br; 
+	 objs_on_brevno[(0+k)] = ob_br;
+	 //if ob_br = brevno_ban{
+		// array_delete(objs, 0,0);
+	 //}
+	 //if ob_br = brevno_cat{
+		// array_delete(objs, 1,1);
+	 //}
+	 //if ob_br = brevno_duck{
+		// array_delete(objs, 2,2);
+	 //}
+	 //if ob_br = brevno_fish{
+		// array_delete(objs, 3,3);
+	 //}
+	 //if ob_br = brevno_stone{
+		// array_delete(objs, 4,4);
+	 //}
+	 //if ob_br = brevno_vetka{
+		// array_delete(objs, 5,5);
+	 //}
 	 k +=1;
 }
 // checks
