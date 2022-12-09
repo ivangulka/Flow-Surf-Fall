@@ -77,7 +77,8 @@ global.check_vetka = false
 while k6 <=3 {
 	if objs_on_brevno[(0+k6)] == brevno_vetka
 	{
-		global.check_vetka = true		
+		global.check_vetka = true	
+		global.k_vetka += 1
 	}
 	k6 += 1;
 }
@@ -91,5 +92,5 @@ while k7 <=3 {
 	k7 += 1;
 }
 
-// создание и дэлит бревна:
+// создание бревна:
 alarm[0] = 12 *room_speed 
