@@ -1,6 +1,7 @@
 k = 1
 if global.perb == 1 + k{
     instance_destroy(global.id_br_ban)
+	global.perb = 0
 }
 if global.check_ban == true{ 
 	instance_destroy(global.id_brev_ban)

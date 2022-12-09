@@ -1,6 +1,7 @@
 k = 1
 if global.perf == 1 + k{
 	instance_destroy(global.id_br_fish)
+	global.perf = 0
 }
 if global.check_fish== true{ 
 	instance_destroy(global.id_brev_fish)
