@@ -41,7 +41,9 @@ global.check_ban = false
 while k2 <=3 {
 	if objs_on_brevno[(0+k2)] == brevno_ban
 	{
-		global.check_ban = true		
+		global.check_ban = true
+		global.k_ban += 1
+
 	}
 	k2 += 1;
 }
@@ -50,7 +52,9 @@ global.check_duck = false
 while k3 <=3 {
 	if objs_on_brevno[(0+k3)] == brevno_duck
 	{
-		global.check_duck = true		
+		global.check_duck = true
+		global.k_duck += 1
+
 	}
 	k3 += 1;
 }
@@ -59,7 +63,9 @@ global.check_fish = false
 while k4 <=3 {
 	if objs_on_brevno[(0+k4)] == brevno_fish
 	{
-		global.check_fish = true		
+		global.check_fish = true
+		global.k_fish += 1
+
 	}
 	k4 += 1;
 }
@@ -68,7 +74,9 @@ global.check_stone = false
 while k5 <=3 {
 	if objs_on_brevno[(0+k5)] == brevno_stone
 	{
-		global.check_stone = true		
+		global.check_stone = true
+	    global.k_stone += 1
+
 	}
 	k5 += 1;
 }
@@ -88,6 +96,8 @@ while k7 <=3 {
 	if objs_on_brevno[(0+k7)] == brevno_cat
 	{
 		global.check_cat = true		
+	    global.k_cat += 1
+
 	}
 	k7 += 1;
 }
