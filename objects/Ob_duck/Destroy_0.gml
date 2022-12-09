@@ -1,5 +1,5 @@
 global.ka = 0
-if global.check_duck == true{ 
+if global.check_duck == true and global.k_duck = 1{ 
 	instance_destroy(global.id_brev_duck)
 	global.k_duck1 +=1
 	if global.k_duck1 > global.k_duck{

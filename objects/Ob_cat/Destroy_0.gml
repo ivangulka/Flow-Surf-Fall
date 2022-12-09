@@ -1,4 +1,4 @@
-if global.check_cat == true{ 
+if global.check_cat == true and global.k_cat = 1{ 
 	instance_destroy(global.id_brev_cat)
 	global.k_cat1 +=1
 	if global.k_cat1 > global.k_cat{

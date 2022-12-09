@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if global.check_fish== true{ 
+if global.check_fish== true and global.k_fish= 1{ 
 	instance_destroy(global.id_brev_fish)
 	global.k_fish1 +=1
 	if global.k_fish1 > global.k_fish{
