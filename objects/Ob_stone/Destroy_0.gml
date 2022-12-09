@@ -1,4 +1,5 @@
-if global.pers == 2{
+k = 1
+if global.pers == 1 + k{
 	instance_destroy(global.id_br_stone)
 }
 if global.check_stone == true{ 
@@ -11,4 +12,4 @@ if global.check_stone == true{
 else{
 	game_end()
 }
-global.pers += 1
+global.pers += k

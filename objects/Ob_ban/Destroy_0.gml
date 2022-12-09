@@ -1,4 +1,5 @@
-if global.perb == 2{
+k = 1
+if global.perb == 1 + k{
     instance_destroy(global.id_br_ban)
 }
 if global.check_ban == true{ 
@@ -11,4 +12,4 @@ if global.check_ban == true{
 else{
 	game_end()
 }
-global.perb += 1
+global.perb += k

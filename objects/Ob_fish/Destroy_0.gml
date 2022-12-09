@@ -1,4 +1,5 @@
-if global.perf == 2{
+k = 1
+if global.perf == 1 + k{
 	instance_destroy(global.id_br_fish)
 }
 if global.check_fish== true{ 
@@ -11,4 +12,4 @@ if global.check_fish== true{
 else{
 	game_end()
 }
-global.perf += 1
+global.perf += k

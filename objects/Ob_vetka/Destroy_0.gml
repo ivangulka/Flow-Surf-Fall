@@ -1,4 +1,5 @@
-if global.perv == 2{
+k = 1
+if global.perv == 1 + k{
 	instance_destroy(global.id_br_vetka)
 }
 if global.check_vetka == true{ 
@@ -11,6 +12,6 @@ if global.check_vetka == true{
 else{
 	game_end()
 }
-global.perv += 1
+global.perv += k
 
 	

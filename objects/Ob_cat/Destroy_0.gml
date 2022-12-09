@@ -1,4 +1,5 @@
-if global.perc == 2 {
+k = 1
+if global.perc == 1 + k {
 	instance_destroy(global.id_br_cat)
 }
 if global.check_cat == true{ 
@@ -11,4 +12,4 @@ if global.check_cat == true{
 else{
 	game_end()
 }
-global.perc +=1
+global.perc += k

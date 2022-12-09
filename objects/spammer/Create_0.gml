@@ -5,6 +5,8 @@ global.perd = 1
 global.perf = 1 
 global.pers = 1 
 global.perv = 1 
+//Другие переменные:
+global.ka = 0
 //alarm
 randomize()
 t1 = 10
@@ -136,3 +138,4 @@ while k7 <=3 {
 
 // создание бревна:
 alarm[0] = 12 *room_speed 
+
