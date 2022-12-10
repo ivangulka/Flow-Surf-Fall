@@ -46,6 +46,7 @@
     {"id":{"name":"brevno_stone","path":"objects/brevno_stone/brevno_stone.yy",},"order":4,},
     {"id":{"name":"s_cat","path":"sprites/s_cat/s_cat.yy",},"order":1,},
     {"id":{"name":"s_but_opt","path":"sprites/s_but_opt/s_but_opt.yy",},"order":2,},
+    {"id":{"name":"sound_opt","path":"sounds/sound_opt/sound_opt.yy",},"order":0,},
     {"id":{"name":"Ob_stone","path":"objects/Ob_stone/Ob_stone.yy",},"order":1,},
     {"id":{"name":"s_ban","path":"sprites/s_ban/s_ban.yy",},"order":0,},
     {"id":{"name":"s_br_cat","path":"sprites/s_br_cat/s_br_cat.yy",},"order":1,},
