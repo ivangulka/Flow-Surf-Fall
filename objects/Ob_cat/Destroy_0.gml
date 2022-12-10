@@ -1,11 +1,13 @@
 k = 1
 if global.perc == 1 + k {
 	instance_destroy(global.id_br_cat)
-	global.perc = 0
+	global.perc = 1
+	show_debug_message("rabo")
 }
 if global.check_cat == true{ 
 	instance_destroy(global.id_brev_cat)
 	global.k_cat1 +=1
+	show_debug_message("rabo toshe ")
 	if global.k_cat1 > global.k_cat{
 		instance_destroy(global.id_pers)
 	}

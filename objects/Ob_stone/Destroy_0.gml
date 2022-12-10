@@ -1,11 +1,13 @@
 k = 1
 if global.pers == 1 + k{
 	instance_destroy(global.id_br_stone)
-	global.pers = 0
+	global.pers = 1
+	show_debug_message("rabo")
 }
 if global.check_stone == true{ 
 	instance_destroy(global.id_brev_stone)
 	global.k_stone1 +=1
+	show_debug_message("rabo toshe ")
 	if global.k_stone1 > global.k_stone{
 		instance_destroy(global.id_pers)
 	}
