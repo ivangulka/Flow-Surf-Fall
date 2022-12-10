@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "spammer",
+  "name": "GAME_GENERAL",
   "spriteId": null,
   "solid": false,
   "visible": true,
