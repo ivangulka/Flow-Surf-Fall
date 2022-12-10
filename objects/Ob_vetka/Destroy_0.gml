@@ -2,7 +2,7 @@ k = 1
 if global.perv == 1 + k{
 	instance_destroy(global.id_br_vetka)
 	global.perv = 1
-	show_debug_message("rabo")
+	show_debug_message(global.perv)
 }
 if global.check_vetka == true{ 
 	instance_destroy(global.id_brev_vetka)

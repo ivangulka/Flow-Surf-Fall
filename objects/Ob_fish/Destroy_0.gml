@@ -2,7 +2,7 @@ k = 1
 if global.perf == 1 + k{
 	instance_destroy(global.id_br_fish)
 	global.perf = 1
-	show_debug_message("rabo")
+	show_debug_message(global.perf)
 }
 if global.check_fish== true{ 
 	instance_destroy(global.id_brev_fish)

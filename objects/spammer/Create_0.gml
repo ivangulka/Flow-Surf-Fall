@@ -7,6 +7,7 @@ global.pers = 1
 global.perv = 1 
 //Другие переменные:
 global.ka = 0
+global.wave = 1
 //alarm
 randomize()
 t1 = 10

@@ -4,6 +4,12 @@
 alarm[0] = 10*room_speed;
 k  = 0;
 k = 0;
+global.perb = 1 
+global.perc = 1 
+global.perd = 1 
+global.perf = 1 
+global.pers = 1 
+global.perv = 1 
 while k <=3 {
 	 ob_br = objs[irandom(5)];
 	 (instance_create_layer(600 + 200*k, 155,"objs_on_brevno",ob_br)).x = 600+ 200*k;
