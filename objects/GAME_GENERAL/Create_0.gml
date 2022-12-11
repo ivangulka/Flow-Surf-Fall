@@ -8,6 +8,12 @@ global.perv = 1
 //Другие переменные:
 global.ka = 0
 global.wave = 1
+global.k_ban = 0
+global.k_duck = 0
+global.k_fish = 0
+global.k_stone = 0
+global.k_vetka = 0
+global.k_cat = 0
 //alarm
 randomize()
 t1 = 10
@@ -40,6 +46,11 @@ global.objs_on_brevno = [];
 k = 0;
 while k <=3 {
 	 ob_br = objs[irandom(5)];
+	 if (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
+		 while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
+		     ob_br = objs[irandom(5)];
+	     }
+	 }
 	 (instance_create_layer(600 + 200*k, 155,"objs_on_brevno",ob_br)).x = 600+ 200*k;
 	 if ob_br =  brevno_ban{
 		 global.id_br_ban = ob_br.id
@@ -64,7 +75,6 @@ while k <=3 {
 }
 // checks
 k2 = 0
-global.k_ban = 0
 global.check_ban = false
 global.k_ban1 =0
 while k2 <=3 {
@@ -76,7 +86,6 @@ while k2 <=3 {
 	k2 += 1;
 }
 k3 = 0
-global.k_duck = 0
 global.check_duck = false	
 global.k_duck1 = 0
 while k3 <=3 {
@@ -88,7 +97,6 @@ while k3 <=3 {
 	k3 += 1;
 }
 k4 = 0
-global.k_fish = 0
 global.check_fish = false
 global.k_fish1 = 0
 while k4 <=3 {
@@ -100,7 +108,6 @@ while k4 <=3 {
 	k4 += 1;
 }
 k5 = 0
-global.k_stone = 0
 global.check_stone = false
 global.k_stone1 = 0
 while k5 <=3 {
@@ -113,7 +120,6 @@ while k5 <=3 {
 	k5 += 1;
 }
 k6 = 0
-global.k_vetka = 0
 global.check_vetka = false
 global.k_vetka1 = 0
 while k6 <=3 {
@@ -125,7 +131,6 @@ while k6 <=3 {
 	k6 += 1;
 }
 k7 = 0
-global.k_cat = 0
 global.check_cat = false
 global.k_cat1 = 0
 while k7 <=3 {
