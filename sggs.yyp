@@ -70,6 +70,7 @@
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":5,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"button_menu","folderPath":"folders/button_menu.yy","order":11,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"objects on brevno","folderPath":"folders/objects on brevno.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":3,},
@@ -77,13 +78,12 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buts","folderPath":"folders/Sprites/buts.yy","order":18,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"fons","folderPath":"folders/Sprites/fons.yy","order":20,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"on brevno","folderPath":"folders/Sprites/on brevno.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprits trash","folderPath":"folders/Sprites/sprits trash.yy","order":15,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"trash","folderPath":"folders/trash.yy","order":6,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"button_menu","folderPath":"folders/button_menu.yy","order":11,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buts","folderPath":"folders/Sprites/buts.yy","order":18,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"fons","folderPath":"folders/Sprites/fons.yy","order":20,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
