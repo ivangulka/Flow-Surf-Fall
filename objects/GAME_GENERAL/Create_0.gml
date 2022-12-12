@@ -86,46 +86,34 @@ while k <=3 {
 		k3 += 1;
 	}
 	k4 = 0
-	global.check_fish = false
-	global.k_fish1 = 0
 	while k4 <=3 {
 		if objs_on_brevno[(0+k4)] == brevno_fish
 		{
-			global.check_fish = true
 			global.k_fish += 1
 		}
 		k4 += 1;
 	}
 	k5 = 0
-	global.check_stone = false
-	global.k_stone1 = 0
 	while k5 <=3 {
 		if objs_on_brevno[(0+k5)] == brevno_stone
 		{
-			global.check_stone = true
 			global.k_stone += 1
 
 		}
 		k5 += 1;
 	}
 	k6 = 0
-	global.check_vetka = false
-	global.k_vetka1 = 0
 	while k6 <=3 {
 		if objs_on_brevno[(0+k6)] == brevno_vetka
 		{
-			global.check_vetka = true	
 	        global.k_vetka += 1
 		}
 		k6 += 1;
 	}
 	k7 = 0
-	global.check_cat = false
-	global.k_cat1 = 0
 	while k7 <=3 {
 		if objs_on_brevno[(0+k7)] == brevno_cat
 		{
-			global.check_cat = true		
 	        global.k_cat += 1
 		}
 		k7 += 1;
@@ -133,7 +121,7 @@ while k <=3 {
 	      
 	 objs_on_brevno[(0+k)] = ob_br;
 	 k +=1;
-}
+	 }
 // checks
 k2 = 0
 global.check_ban = false
@@ -205,4 +193,3 @@ while k7 <=3 {
 
 // создание бревна:
 alarm[0] = 8 *room_speed 
-
