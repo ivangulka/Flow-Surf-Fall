@@ -4,11 +4,11 @@ randomize()
 x = irandom_range(520,1280)
 xn = irandom_range(520,1280)
 if global.complex == 1{
-	sped = irandom_range(2,4)
+	sped = irandom_range(1,3)
 }
 if global.complex == 2{
-	sped = irandom_range(3,5)
+	sped = irandom_range(4,7)
 }
 if global.complex == 3{
-	sped = irandom_range(5,7)
+	sped = irandom_range(7,10)
 }
