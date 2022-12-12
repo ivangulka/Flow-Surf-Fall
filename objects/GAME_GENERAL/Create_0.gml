@@ -39,7 +39,7 @@ k = 0;
 while k <=3 {
 	 ob_br = objs[irandom(5)];
 	 if (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
-		 show_debug_message("buyajgfaosijgoasgagaganogn")
+		 show_debug_message("3 objs on brevno")
 		 while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
 		     ob_br = objs[irandom(5)];
 	     }
