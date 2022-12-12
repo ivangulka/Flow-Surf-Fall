@@ -252,7 +252,7 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "shrifts",
-    "path": "folders/shrifts.yy",
+    "name": "fonts",
+    "path": "folders/fonts.yy",
   },
 }
