@@ -1,3 +1,4 @@
+audio_play_sound(sound_opt, 100, true)
 //переменные-счетчики для спавна вторых объектов:
 global.perb = 1 
 global.perc = 1 
@@ -31,14 +32,6 @@ while k1 <=5 {
     k1 += 1;
 	randomize()
 }
-
-
-
-
-
-
-
-
 // на бревне
 objs = [brevno_ban,brevno_cat,brevno_duck,brevno_fish,brevno_stone,brevno_vetka];
 global.objs_on_brevno = [];

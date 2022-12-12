@@ -3,4 +3,3 @@
 draw_set_font(font_vol)
 draw_text_transformed(590,110, "Sound:", 1,1,0)
 draw_text_transformed(760,110, global.vol_chis, 1,1,0)
-audio_play_sound(sound_opt, 100, false)

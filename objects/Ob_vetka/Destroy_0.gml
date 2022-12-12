@@ -7,7 +7,7 @@ if global.perv == 1 + k{
 if global.check_vetka == true{ 
 	instance_destroy(global.id_brev_vetka)
 	global.k_vetka1 +=1
-	show_debug_message("rabo toshe ")
+	show_debug_message("destroy")
 	if global.k_vetka1 > global.k_vetka{
 		instance_destroy(global.id_pers)
 	}

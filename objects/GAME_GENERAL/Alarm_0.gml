@@ -19,12 +19,14 @@ global.k_cat = 0
 while k <=3 {
 	 ob_br = objs[irandom(5)];
 	 if (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
-		 //while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
-		 //    ob_br = objs[irandom(5)];
-	     //}
-		 show_debug_message("buyajgfaosijgoasgagaganogn")
+		 show_debug_message("3 объекта - исправление")
+		 while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
+		     ob_br = objs[irandom(5)];
+	     }
 	 }
+	 objs_on_brevno[(0+k)] = ob_br;
 	 (instance_create_layer(600 + 200*k, 155,"objs_on_brevno",ob_br)).x = 600+ 200*k;
+
 	 if ob_br =  brevno_ban{
 		 global.id_br_ban = ob_br.id
 	 }
@@ -43,7 +45,40 @@ while k <=3 {
 	 if ob_br =  brevno_vetka{
 		 global.id_br_vetka = ob_br.id
 	 }
-	 objs_on_brevno[(0+k)] = ob_br;
+
+	 
+	 if objs_on_brevno[(0+k)] == brevno_ban
+	 {
+		global.k_ban += 1
+	 }
+	 if objs_on_brevno[(0+k)] == brevno_duck
+	 {
+		global.k_duck += 1
+	 }
+
+	 if objs_on_brevno[(0+k)] == brevno_fish
+	 {
+		global.k_fish += 1
+	 }
+
+
+	 if objs_on_brevno[(0+k)] == brevno_stone
+	 {
+		global.k_stone += 1
+
+ 	 }
+
+
+	 if objs_on_brevno[(0+k)] == brevno_vetka
+	 {
+	    global.k_vetka += 1
+	 }
+
+	 if objs_on_brevno[(0+k)] == brevno_cat
+	 {
+	    global.k_cat += 1
+	 }
+	      
 	 k +=1;
 }
 // checks

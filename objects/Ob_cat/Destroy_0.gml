@@ -7,7 +7,7 @@ if global.perc == 1 + k {
 if global.check_cat == true{ 
 	instance_destroy(global.id_brev_cat)
 	global.k_cat1 +=1
-	show_debug_message("rabo toshe ")
+	show_debug_message("destroy")
 	if global.k_cat1 > global.k_cat{
 		instance_destroy(global.id_pers)
 	}
