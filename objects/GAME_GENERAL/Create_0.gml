@@ -32,12 +32,11 @@ while k1 <=5 {
 	randomize()
 }
 
-xn1 = irandom_range(520,1280)
-xn2 = irandom_range(520,1280)
-xn3 = irandom_range(520,1280)
-xn4 = irandom_range(520,1280)
-xn5 = irandom_range(520,1280)
-xn6 = irandom_range(520,1280)
+
+
+
+
+
 
 
 // на бревне
@@ -48,10 +47,9 @@ while k <=3 {
 	 ob_br = objs[irandom(5)];
 	 if (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
 		 show_debug_message("buyajgfaosijgoasgagaganogn")
-		 //while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
-		 //    ob_br = objs[irandom(5)];
+		 while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
+		     ob_br = objs[irandom(5)];
 	     }
-	 }
 	 (instance_create_layer(600 + 200*k, 155,"objs_on_brevno",ob_br)).x = 600+ 200*k;
 	 if ob_br =  brevno_ban{
 		 global.id_br_ban = ob_br.id
@@ -71,8 +69,71 @@ while k <=3 {
 	 if ob_br =  brevno_vetka{
 		 global.id_br_vetka = ob_br.id
 	 }
+	 k2 = 0
+	while k2 <=3 {
+		if objs_on_brevno[(0+k2)] == brevno_ban
+		{
+			global.k_ban += 1
+		}
+		k2 += 1;
+	}
+	k3 = 0
+	while k3 <=3 {
+		if objs_on_brevno[(0+k3)] == brevno_duck
+		{
+			global.k_duck += 1
+		}
+		k3 += 1;
+	}
+	k4 = 0
+	global.check_fish = false
+	global.k_fish1 = 0
+	while k4 <=3 {
+		if objs_on_brevno[(0+k4)] == brevno_fish
+		{
+			global.check_fish = true
+			global.k_fish += 1
+		}
+		k4 += 1;
+	}
+	k5 = 0
+	global.check_stone = false
+	global.k_stone1 = 0
+	while k5 <=3 {
+		if objs_on_brevno[(0+k5)] == brevno_stone
+		{
+			global.check_stone = true
+			global.k_stone += 1
+
+		}
+		k5 += 1;
+	}
+	k6 = 0
+	global.check_vetka = false
+	global.k_vetka1 = 0
+	while k6 <=3 {
+		if objs_on_brevno[(0+k6)] == brevno_vetka
+		{
+			global.check_vetka = true	
+	        global.k_vetka += 1
+		}
+		k6 += 1;
+	}
+	k7 = 0
+	global.check_cat = false
+	global.k_cat1 = 0
+	while k7 <=3 {
+		if objs_on_brevno[(0+k7)] == brevno_cat
+		{
+			global.check_cat = true		
+	        global.k_cat += 1
+		}
+		k7 += 1;
+	}
+	      
 	 objs_on_brevno[(0+k)] = ob_br;
 	 k +=1;
+}
 // checks
 k2 = 0
 global.check_ban = false
@@ -143,5 +204,5 @@ while k7 <=3 {
 }
 
 // создание бревна:
-alarm[0] = 12 *room_speed 
+alarm[0] = 8 *room_speed 
 

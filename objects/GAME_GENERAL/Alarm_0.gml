@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 (instance_create_layer(512, 128,"ins_brevno",Ob_brevno)).x = 512
-alarm[0] = 10*room_speed;
+alarm[0] = 8*room_speed;
 k  = 0;
 k = 0;
 global.perb = 1 
@@ -19,9 +19,10 @@ global.k_cat = 0
 while k <=3 {
 	 ob_br = objs[irandom(5)];
 	 if (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
-		 while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
-		     ob_br = objs[irandom(5)];
-	     }
+		 //while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
+		 //    ob_br = objs[irandom(5)];
+	     //}
+		 show_debug_message("buyajgfaosijgoasgagaganogn")
 	 }
 	 (instance_create_layer(600 + 200*k, 155,"objs_on_brevno",ob_br)).x = 600+ 200*k;
 	 if ob_br =  brevno_ban{
