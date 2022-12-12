@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "but_normal",
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_but_normal",
+    "path": "sprites/s_but_normal/s_but_normal.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
