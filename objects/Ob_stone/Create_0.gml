@@ -4,4 +4,4 @@
 randomize()
 x = irandom_range(520,1280)
 xn = irandom_range(520,1280)
-spes = irandom_range(3,5)
+global.spes = irandom_range(3,5)

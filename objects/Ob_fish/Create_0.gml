@@ -3,4 +3,4 @@
 randomize()
 x = irandom_range(520,1280)
 xn = irandom_range(520,1280)
-spef = irandom_range(3,5)
+global.spef = irandom_range(3,5)
