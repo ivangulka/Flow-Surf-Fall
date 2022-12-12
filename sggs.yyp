@@ -28,6 +28,7 @@
     {"id":{"name":"s_duck","path":"sprites/s_duck/s_duck.yy",},"order":2,},
     {"id":{"name":"brevno_cat","path":"objects/brevno_cat/brevno_cat.yy",},"order":1,},
     {"id":{"name":"opt_fon","path":"sprites/opt_fon/opt_fon.yy",},"order":1,},
+    {"id":{"name":"but_easy","path":"objects/but_easy/but_easy.yy",},"order":5,},
     {"id":{"name":"brevno_vetka","path":"objects/brevno_vetka/brevno_vetka.yy",},"order":5,},
     {"id":{"name":"Ob_fish","path":"objects/Ob_fish/Ob_fish.yy",},"order":3,},
     {"id":{"name":"s_br_stone","path":"sprites/s_br_stone/s_br_stone.yy",},"order":3,},
@@ -77,6 +78,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"shrifts","folderPath":"folders/shrifts.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy","order":0,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":8,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buts","folderPath":"folders/Sprites/buts.yy","order":18,},
@@ -85,7 +87,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sprits trash","folderPath":"folders/Sprites/sprits trash.yy","order":15,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"trash","folderPath":"folders/trash.yy","order":6,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"shrifts","folderPath":"folders/shrifts.yy","order":13,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
