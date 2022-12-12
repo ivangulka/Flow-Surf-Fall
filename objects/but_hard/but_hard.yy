@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "but_hard",
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_but_hard",
+    "path": "sprites/s_but_hard/s_but_hard.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

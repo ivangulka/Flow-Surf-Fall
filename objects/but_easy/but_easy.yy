@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "but_easy",
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_but_easy",
+    "path": "sprites/s_but_easy/s_but_easy.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
