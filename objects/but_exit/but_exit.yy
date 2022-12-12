@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "but_exit",
   "spriteId": {
-    "name": "s_but_pause",
-    "path": "sprites/s_but_pause/s_but_pause.yy",
+    "name": "s_but_exit",
+    "path": "sprites/s_but_exit/s_but_exit.yy",
   },
   "solid": false,
   "visible": true,

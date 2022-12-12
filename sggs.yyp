@@ -12,7 +12,7 @@
     {"id":{"name":"but_sound_plus","path":"objects/but_sound_plus/but_sound_plus.yy",},"order":3,},
     {"id":{"name":"but_normal","path":"objects/but_normal/but_normal.yy",},"order":6,},
     {"id":{"name":"Ob_ban","path":"objects/Ob_ban/Ob_ban.yy",},"order":6,},
-    {"id":{"name":"s_but_pause","path":"sprites/s_but_pause/s_but_pause.yy",},"order":1,},
+    {"id":{"name":"s_but_exit","path":"sprites/s_but_exit/s_but_exit.yy",},"order":1,},
     {"id":{"name":"s_but_easy","path":"sprites/s_but_easy/s_but_easy.yy",},"order":5,},
     {"id":{"name":"but_hard","path":"objects/but_hard/but_hard.yy",},"order":7,},
     {"id":{"name":"Ob_brevno","path":"objects/Ob_brevno/Ob_brevno.yy",},"order":2,},
