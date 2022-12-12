@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "but_normal",
   "spriteId": {
-    "name": "s_but_normal_chs",
-    "path": "sprites/s_but_normal_chs/s_but_normal_chs.yy",
+    "name": "s_but_normal",
+    "path": "sprites/s_but_normal/s_but_normal.yy",
   },
   "solid": false,
   "visible": true,
