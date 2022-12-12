@@ -1,4 +1,3 @@
-audio_play_sound(sound_opt, 100, true)
 //переменные-счетчики для спавна вторых объектов:
 global.perb = 1 
 global.perc = 1 
