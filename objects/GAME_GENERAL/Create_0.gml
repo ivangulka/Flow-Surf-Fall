@@ -14,7 +14,6 @@ global.k_fish = 0
 global.k_stone = 0
 global.k_vetka = 0
 global.k_cat = 0
-global.complex = 2
 //alarm
 randomize()
 t1 = 10

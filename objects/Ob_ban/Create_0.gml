@@ -3,7 +3,6 @@
 randomize()
 x = irandom_range(520,1280)
 xn = irandom_range(520,1280)
-global.complex = 2
 if global.complex == 1{
 	speb = irandom_range(1,3)
 }
