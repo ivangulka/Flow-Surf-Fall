@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "but_sound_plus",
   "spriteId": {
-    "name": "s_but_sound_plus",
-    "path": "sprites/s_but_sound_plus/s_but_sound_plus.yy",
+    "name": "s_but_plus",
+    "path": "sprites/s_but_plus/s_but_plus.yy",
   },
   "solid": false,
   "visible": true,

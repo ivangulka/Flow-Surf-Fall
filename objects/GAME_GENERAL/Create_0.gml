@@ -14,6 +14,7 @@ global.k_fish = 0
 global.k_stone = 0
 global.k_vetka = 0
 global.k_cat = 0
+instance_create_layer(0,0,layer,Bright)
 //alarm
 randomize()
 t1 = 10
