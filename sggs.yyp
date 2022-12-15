@@ -6,6 +6,7 @@
     {"id":{"name":"s_br_duck","path":"sprites/s_br_duck/s_br_duck.yy",},"order":2,},
     {"id":{"name":"OPT_GENERAL","path":"objects/OPT_GENERAL/OPT_GENERAL.yy",},"order":12,},
     {"id":{"name":"s_sky","path":"sprites/s_sky/s_sky.yy",},"order":2,},
+    {"id":{"name":"Font_end","path":"fonts/Font_end/Font_end.yy",},"order":1,},
     {"id":{"name":"GAME_GENERAL","path":"objects/GAME_GENERAL/GAME_GENERAL.yy",},"order":10,},
     {"id":{"name":"menu_fon","path":"sprites/menu_fon/menu_fon.yy",},"order":0,},
     {"id":{"name":"Ob_cat","path":"objects/Ob_cat/Ob_cat.yy",},"order":0,},
