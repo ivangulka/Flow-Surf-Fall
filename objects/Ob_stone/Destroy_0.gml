@@ -13,6 +13,6 @@ if global.check_stone == true{
 	}
 }
 else{
-	game_end()
+	room_goto(rm_end)
 }
 global.pers += k

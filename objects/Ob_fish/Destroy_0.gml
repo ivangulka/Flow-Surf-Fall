@@ -13,6 +13,6 @@ if global.check_fish== true{
 	}
 }
 else{
-	game_end()
+	room_goto(rm_end)
 }
 global.perf += k

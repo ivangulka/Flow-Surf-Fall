@@ -13,7 +13,7 @@ if global.check_vetka == true{
 	}
 }
 else{
-	game_end()
+	room_goto(rm_end)
 }
 global.perv += k
 

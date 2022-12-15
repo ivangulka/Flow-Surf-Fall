@@ -13,6 +13,6 @@ if global.check_ban == true{
 	}
 }
 else{
-	game_end()
+	room_goto(rm_end)
 }
 global.perb += k
