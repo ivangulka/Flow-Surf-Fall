@@ -4,7 +4,7 @@ randomize()
 x = irandom_range(520,1280)
 xn = irandom_range(520,1280)
 if global.complex == 1{
-	sped = irandom_range(1,3)
+	sped = irandom_range(2,4)
 }
 if global.complex == 2{
 	sped = irandom_range(4,7)

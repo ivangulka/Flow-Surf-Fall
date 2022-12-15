@@ -17,8 +17,19 @@ global.k_cat = 0
 instance_create_layer(0,0,layer,Bright)
 //alarm
 randomize()
-t1 = 10
-t2 = 15
+if global.complex == 1{
+	t1 = 6
+    t2 = 10
+}
+if global.complex == 2{
+	t1 = 10
+    t2 = 15
+}
+if global.complex == 3{
+	t1 = 13
+    t2 = 18
+}
+
 spe_obsh1 = irandom_range(t1,t2) * 30
 spe_obsh2 = irandom_range(t1,t2) * 30
 spe_obsh3 = irandom_range(t1,t2) * 30
