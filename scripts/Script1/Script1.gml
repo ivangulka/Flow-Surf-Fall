@@ -7,6 +7,7 @@ global.vol_chis = 10
 global.bright_chis = 10
 global.sp1 = 1
 global.sp2 = 2
+global.sp23 = 4
 global.sp3 = 7
 global.sp4 = 10
 global.lvl = 0
