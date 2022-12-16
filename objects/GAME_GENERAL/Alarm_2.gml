@@ -5,3 +5,6 @@ var xn2 = irandom_range(520,1280)
 instance_create_layer(xn2,-50,"Instances", Ob_cat)   //.x = xn2;
 alarm[2] = (1080/spe_obsh2)*room_speed;
 randomize()
+if global.wave % 10 == 0{
+	pers.spe_pers += 2
+}
