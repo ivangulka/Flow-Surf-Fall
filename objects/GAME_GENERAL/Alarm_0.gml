@@ -11,16 +11,16 @@ global.perf = 1
 global.pers = 1 
 global.perv = 1 
 global.k_ban = 0
-global.k_duck = 0
-global.k_fish = 0
+global.k_bird2 = 0
+global.k_bird1 = 0
 global.k_stone = 0
 global.k_vetka = 0
 global.k_cat = 0
 while k <=3 {
 	 ob_br = objs[irandom(5)];
-	 if (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
+	 if (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_bird1 and global.k_cat == 2) or (ob_br == brevno_bird2 and global.k_bird2 == 2) or (ob_br == brevno_avocado and global.k_bird1 == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
 		 show_debug_message("3 объекта - исправление")
-		 while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_cat and global.k_cat == 2) or (ob_br == brevno_duck and global.k_duck == 2) or (ob_br == brevno_fish and global.k_fish == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
+		 while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_bird1 and global.k_cat == 2) or (ob_br == brevno_bird2 and global.k_bird2 == 2) or (ob_br == brevno_avocado and global.k_bird1 == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
 		     ob_br = objs[irandom(5)];
 	     }
 	 }
@@ -30,14 +30,14 @@ while k <=3 {
 	 if ob_br =  brevno_ban{
 		 global.id_br_ban = ob_br.id
 	 }
-	 if ob_br =  brevno_cat{
+	 if ob_br =  brevno_bird1{
 		 global.id_br_cat = ob_br.id
 	 }
-	 if ob_br =  brevno_duck{
-		 global.id_br_duck = ob_br.id
+	 if ob_br =  brevno_bird2{
+		 global.id_br_bird2 = ob_br.id
 	 }
-	 if ob_br =  brevno_fish{
-		 global.id_br_fish = ob_br.id
+	 if ob_br =  brevno_avocado{
+		 global.id_br_bird1 = ob_br.id
 	 }
 	 if ob_br =  brevno_stone{
 		 global.id_br_stone = ob_br.id
@@ -51,14 +51,14 @@ while k <=3 {
 	 {
 		global.k_ban += 1
 	 }
-	 if objs_on_brevno[(0+k)] == brevno_duck
+	 if objs_on_brevno[(0+k)] == brevno_bird2
 	 {
-		global.k_duck += 1
+		global.k_bird2 += 1
 	 }
 
-	 if objs_on_brevno[(0+k)] == brevno_fish
+	 if objs_on_brevno[(0+k)] == brevno_avocado
 	 {
-		global.k_fish += 1
+		global.k_bird1 += 1
 	 }
 
 
@@ -74,7 +74,7 @@ while k <=3 {
 	    global.k_vetka += 1
 	 }
 
-	 if objs_on_brevno[(0+k)] == brevno_cat
+	 if objs_on_brevno[(0+k)] == brevno_bird1
 	 {
 	    global.k_cat += 1
 	 }
@@ -95,26 +95,26 @@ while k2 <=3 {
 	k2 += 1;
 }
 k3 = 0
-global.k_duck = 0
-global.check_duck = false	
-global.k_duck1 = 0
+global.k_bird2 = 0
+global.check_bird2 = false	
+global.k_bird21 = 0
 while k3 <=3 {
-	if objs_on_brevno[(0+k3)] == brevno_duck
+	if objs_on_brevno[(0+k3)] == brevno_bird2
 	{
-		global.check_duck = true
-		global.k_duck += 1
+		global.check_bird2 = true
+		global.k_bird2 += 1
 	}
 	k3 += 1;
 }
 k4 = 0
-global.k_fish = 0
-global.check_fish = false
-global.k_fish1 = 0
+global.k_bird1 = 0
+global.check_bird1 = false
+global.k_bird11 = 0
 while k4 <=3 {
-	if objs_on_brevno[(0+k4)] == brevno_fish
+	if objs_on_brevno[(0+k4)] == brevno_avocado
 	{
-		global.check_fish = true
-		global.k_fish += 1
+		global.check_bird1 = true
+		global.k_bird1 += 1
 	}
 	k4 += 1;
 }
@@ -148,7 +148,7 @@ global.k_cat = 0
 global.check_cat = false
 global.k_cat1 = 0
 while k7 <=3 {
-	if objs_on_brevno[(0+k7)] == brevno_cat
+	if objs_on_brevno[(0+k7)] == brevno_bird1
 	{
 		global.check_cat = true		
         global.k_cat += 1
