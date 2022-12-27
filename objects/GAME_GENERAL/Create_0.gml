@@ -28,8 +28,8 @@ if global.complex == 2{
 if global.complex == 3{
 	t1 = 13
     t2 = 18
-	instance_create_depth(1376,736,20,laser)
-	instance_create_depth(522,736,20,laser)
+	las1 = instance_create_depth(1376,736,20,laser)
+	las2 = instance_create_depth(522,736,20,laser)
 }
 
 spe_obsh1 = irandom_range(t1,t2) * 30
