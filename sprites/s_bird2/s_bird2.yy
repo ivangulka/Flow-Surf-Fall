@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "s_bird2",
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 4,
   "type": 0,
   "origin": 0,
   "preMultiplyAlpha": false,
