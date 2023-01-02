@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editory += 5
 randomize()
-x = irandom_range(520,1280)
-xn = irandom_range(520,1280)
+x = irandom_range(470,1370)
+xn = irandom_range(470,1370)
 if global.complex == 1{
 	spec = irandom_range(global.sp1 + global.lvl,global.sp2 + global.lvl)
 }

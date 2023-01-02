@@ -2,7 +2,6 @@ k = 1
 if global.perf == 1 + k{
 	instance_destroy(global.id_br_bird1)
 	global.perf = 1
-	show_debug_message(global.perf)
 }
 if global.check_bird1== true{ 
 	instance_destroy(global.id_brev_bird1)

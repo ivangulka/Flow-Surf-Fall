@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if x < 1350{
+if x < 1410{
 	x += spe_pers
 }
 

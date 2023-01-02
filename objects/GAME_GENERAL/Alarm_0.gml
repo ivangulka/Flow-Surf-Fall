@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-(instance_create_layer(512, 128,"ins_brevno",Ob_brevno)).x = 512
+instance_create_layer(448, 128,"ins_brevno",Ob_brevno)
 alarm[0] = 8*room_speed;
 k  = 0;
 k = 0;
@@ -19,7 +19,6 @@ global.k_cat = 0
 while k <=3 {
 	 ob_br = objs[irandom(5)];
 	 if (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_bird1 and global.k_cat == 2) or (ob_br == brevno_bird2 and global.k_bird2 == 2) or (ob_br == brevno_avocado and global.k_bird1 == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
-		 show_debug_message("3 объекта - исправление")
 		 while (ob_br == brevno_ban and global.k_ban == 2) or (ob_br == brevno_bird1 and global.k_cat == 2) or (ob_br == brevno_bird2 and global.k_bird2 == 2) or (ob_br == brevno_avocado and global.k_bird1 == 2) or (ob_br == brevno_stone and global.k_stone == 2) or (ob_br == brevno_vetka and global.k_vetka == 2){
 		     ob_br = objs[irandom(5)];
 	     }

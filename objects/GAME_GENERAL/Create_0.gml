@@ -14,6 +14,7 @@ global.k_bird1 = 0
 global.k_stone = 0
 global.k_vetka = 0
 global.k_cat = 0
+global.k_cloud = false
 instance_create_layer(0,0,layer,Bright)
 //alarm
 randomize()
